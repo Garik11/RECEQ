@@ -19,5 +19,6 @@ obj/main.o: main.cpp
 obj/rec_solver.o: src/rec_solver.cpp
 	@$(CC) $(LFLAGS) $(RFLAGS) $< -o $@
 
+
 clean:
 	@rm -rf ./obj/*.o list
